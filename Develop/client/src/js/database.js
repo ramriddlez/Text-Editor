@@ -21,11 +21,12 @@ export const putDb = async (id, content) => {
   const request = store.put({ id: id, jate: content });
   const result = await request;
   console.log('🚀 - data saved to the database', result);
+  return result;
 };
 
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getAllDb = async () => {
+export const getDb = async () => {
   console.log('GET from db');
   // Create a connection to the database database and version we want to use.
   const contactDb = await openDB('jate', 1);
@@ -41,7 +42,6 @@ export const getAllDb = async () => {
 
   // Get confirmation of the request.
   const result = await request;
-  console.log('result.value', result);
   return result;
 }
 
