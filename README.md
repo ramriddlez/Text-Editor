@@ -9,17 +9,16 @@
 
 
 ## Description
-This is a beautiful SWA portfolio using React technologies. It includes a junior developer portfolio, with projects, links to the repos and source codes. Using libraries such as Email.js, we capture real data from user inputs, and receive emails to our personal inbox! Also includes css styling to create a dark mode, using states and hooks via React technologies.
+This is a Progressive Web Application that runs in the browser. It is a Text editor that uses IndexedDB to store data, uses service workers and InjectManifest to allow for a download of the application. This PWA application uses CRUD functions, and caches data so the user is able to run the application offline.
 ## Installation
 npm i <br><br>
 npm start <br>
 ## Usage
-![image](https://user-images.githubusercontent.com/96890575/160088345-1180a1ee-1c40-4fce-9d5e-8f3efc207e10.png)
-![image](https://user-images.githubusercontent.com/96890575/160088447-bb7d848b-fe25-4c7f-bc76-23aa4af5cbbb.png)
-![image](https://user-images.githubusercontent.com/96890575/160088476-505d1dc7-a349-4263-a3da-d1c0d512af10.png)
-![image](https://user-images.githubusercontent.com/96890575/160088495-870c9ad5-d4d5-497e-af49-ca28e78953f6.png)
-
-
+![image](https://user-images.githubusercontent.com/96890575/159395456-cd5ee2e9-b5c0-42af-b59d-cbb3e25a587e.png)
+![image](https://user-images.githubusercontent.com/96890575/159395485-68423e98-a222-495c-87fb-2b92b76552de.png)
+![image](https://user-images.githubusercontent.com/96890575/159395575-300e7e19-8dd4-4c24-b90c-da836a1e4ef3.png)
+![image](https://user-images.githubusercontent.com/96890575/159395594-fc63e545-ffee-4b41-83ce-5bc8fc72d454.png)
+![image](https://user-images.githubusercontent.com/96890575/159395631-4c7e04d9-711c-4af4-bf84-191198fbcd70.png)
 
 
 ## License
@@ -29,5 +28,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br>
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
+## DEPLOYMENT
+
+HEROKU DEPLOYMENT: https://glacial-tor-48331.herokuapp.com/
 ## Questions
 GitHub Profile: https://github.com/ramriddlez <br><br>
